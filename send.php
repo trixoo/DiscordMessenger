@@ -1,6 +1,6 @@
 <?php
 // Replace with your Discord webhook URL
-$webhook_url = "https://discord.com/api/webhooks/1090962535072665631/sPivntZY6rrfItH-pzH3vIRHz7n--X8SOVnR5j0zIIv2JeJkrRJqTLlLNHZ5Q1OiRAVH";
+$webhook_url = "WEBHOOK-HERE";
 
 // Load bad words from file
 $bad_words = array();
