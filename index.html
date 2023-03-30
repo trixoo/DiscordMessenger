@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Messenger</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Messenger</h1>
+        <form action="send.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" name="send">Send</button>
+        </form>
+    </div>
+</body>
+</html>
+
+<script>
+window.addEventListener('load', function() {
+  var attributionLink = document.querySelector('a[href*="000webhost"]');
+  if (attributionLink) {
+    attributionLink.parentElement.remove();
+  }
+});
+</script>
+
